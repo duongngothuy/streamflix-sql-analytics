@@ -3,6 +3,7 @@
 StreamFlix is a SQL analytics project on a fictional streaming service, analyzing subscription revenue, retention, and marketing efficiency to answer one question: where should the company spend to grow, and why are customers leaving?
 
 ---
+**🔗 [View the live Tableau dashboard](https://public.tableau.com/app/profile/duong.ngo6143/viz/StreamFlixSubscriptionMarketingAnalytics/StreamFlixSubscriptionMarketingAnalytics)**
 
 ## The Business Problem
 
