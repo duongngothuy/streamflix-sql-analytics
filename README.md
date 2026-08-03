@@ -25,11 +25,11 @@ StreamFlix, a subscription streaming service, is spending heavily on customer ac
 
 ## Recommendation
 
-**1. Cut Display, redirect to Search.** Display has the highest acquisition cost and worst retention, with no offsetting strength — it's the clearest budget to eliminate. Redirect the bulk to Search, which retains far better (38% vs 64% churn) and, unlike Referral, can absorb additional spend to scale.
+**1. Cut Display, redirect to Search.** Display costs the most per customer and has the worst retention, and there's nothing good about it to make up for that, so it's the easiest thing to cut. Search is a better home for the money: it retains way better (38% churn vs Display's 64%), and unlike Referral, you can actually scale it by spending more.
 
-**2. Fund Referral through incentives, not ad spend.** Referral is the cheapest, stickiest channel, but it grows through existing users inviting others — not by buying traffic. Invest in referral bonuses to expand it, while recognizing it can't absorb the full budget alone.
+**2. Fund Referral through incentives, not ad spend.** Referral is the cheapest channel and keeps customers the longest, but you can't just buy more of it — it grows when existing users invite people. So the move is to fund referral bonuses, keeping in mind it can't soak up the whole budget on its own.
 
-**3. Build an at-risk churn flag.** Since engagement drops ~50% before cancellation, flag active users whose monthly watch time falls sharply below their own baseline, and trigger re-engagement (recommendations, offers) while they're still subscribers. Target the intervention carefully — not every dip means churn, so blanket discounts would waste money on users who'd have stayed.
+**3. Build an at-risk churn flag.** Engagement drops about 50% in the months before someone cancels, so you can flag active users whose watch time falls well below their usual, then reach out while they're still subscribed (recommendations, an offer). The catch is not to overdo it — a quiet month doesn't always mean someone's leaving, and blanket discounts would just hand money to people who were going to stay anyway.
 
 *Next step: extend the analysis to LTV:CAC — comparing revenue-per-customer against acquisition cost — for a complete picture of channel profitability.*
 
@@ -78,4 +78,4 @@ streamflix/
 
 ## About the Data
 
-The dataset is synthetic — designed to model realistic subscription dynamics including channel-based acquisition, tenure-driven churn, and engagement decay preceding cancellation. This allowed the analysis to surface patterns that mirror real-world subscription businesses while keeping the data fully shareable.
+The data is synthetic. I built it to behave like a real subscription service — customers come in through different channels, some churn and some don't, and engagement tends to drop off before people cancel. That let me run the kind of analysis I'd do on real company data while keeping everything shareable.
