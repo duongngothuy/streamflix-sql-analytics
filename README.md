@@ -42,7 +42,7 @@ StreamFlix, a subscription streaming service, is spending heavily on customer ac
 | A | MRR & Growth | How is monthly recurring revenue trending month over month? | Chained CTEs, window function (`LAG`), date formatting |
 | B | Cohort Retention | Grouped by signup month, how well do we retain users over time? | CTEs, date math (`TIMESTAMPDIFF`), `CASE`, conditional aggregation |
 | C | Channel CAC vs. Churn | Which acquisition channels deliver low-churn customers at a sustainable cost? | Multi-table joins, multiple CTEs, conditional aggregation |
-| D | Churn Drivers | What behavior precedes cancellation? | Window function (`ROW_NUMBER` with `PARTITION BY`), `CASE` bucketing, `AVG` |
+| D | Churn Drivers | What behavior predicts cancellation? | Window function (`ROW_NUMBER` with `PARTITION BY`), `CASE` bucketing, `AVG` |
 
 Each analysis pairs a business question with the SQL needed to answer it, and ends in a finding that feeds the recommendation above.
 
